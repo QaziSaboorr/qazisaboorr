@@ -1,0 +1,274 @@
+
+body {
+    background-color:white ;
+    border-top: 4px solid 	#9400D3;
+    
+  
+  }
+
+
+ul {
+    list-style-type: none;
+    display : flex ;
+    justify-content:space-around;
+
+}
+
+
+
+img {
+    border-radius: 50%;
+    margin: 20px;
+  }
+
+ #current-page{
+    color: purple;
+}
+
+
+a {
+    
+    color: grey;
+    cursor: pointer;
+    text-decoration:none;
+    
+}
+
+
+
+.main {
+    display: flex;
+    flex:1;
+    border-top: 1px solid grey;
+    min-height: 600px;
+    
+
+}
+
+
+.sub1{
+   
+    border-right: 0.5px solid grey;
+    width: 55%;
+    text-align: center;
+
+
+}
+
+
+
+.info{
+    text-align: center;
+    color:grey;
+    
+}
+
+
+
+.sub2{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+.first-header{
+    color: grey;
+    font-style: italic;
+
+}
+
+
+
+strong{
+    font-style: italic;
+}
+
+
+
+
+
+
+#email{
+    color: purple;
+    text-decoration-line: underline;
+}
+
+
+#name {
+    font-size: 20px;
+}
+
+.second-header {
+    margin: 30px;
+    font-style: oblique;
+    font-size: 2em;
+    color: grey;
+}
+
+
+
+table{
+    margin: 30px;
+}
+
+
+.edu-exp-int-table{
+
+    border-spacing: 4px;
+    width: 75%;
+
+}
+
+
+footer{
+    color: black;
+    text-align: center;
+    margin: 80px;
+    border-top: 0.5px solid grey;
+    width: 90%;
+
+    
+}
+
+
+.credentials {
+    font: normal;
+    color: grey;
+    margin: 30px;
+  
+  
+}
+
+.progressbar{
+    padding: 5px;
+    margin: 5px;
+    width: 500px;
+}
+
+#resume {
+    color : grey;
+    margin: 30px;
+ 
+
+}
+
+
+#resume-link{
+    color: #9400D3;
+}
+
+
+
+.list-items{
+
+    flex-direction: column;
+    font-style: italic;
+   
+    padding: 5px;
+    justify-content: space-around;
+}
+
+
+
+
+#pinterest-link{
+    color: #9400D3;
+
+}
+@media only screen and (max-width: 800px) {
+
+    body {
+        background-color:white ;
+        border-top: 4px solid 	#9400D3;
+        
+      
+      }
+    
+      img {
+        border-radius: 50%;
+        margin: 20px;
+      }
+    
+    
+    
+      ul {
+        list-style-type: none;
+        display : flex ;
+        justify-content:space-around;
+    }
+    
+    
+    
+    #current-page{
+        color: purple;
+    }
+    
+    
+    
+    a {
+        
+        color: grey;
+        cursor: pointer;
+        text-decoration:none;
+        
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex:1;
+        border-top: 1px solid grey;
+       
+        
+    
+    }
+    
+    .progressbar{
+        width: 200px;
+    }
+    
+    
+    .info{
+        text-align: center;
+        color: grey;
+        margin: 60px;
+        
+    }
+    .sub1{
+        border-bottom: solid gray;
+        text-align: center;
+        width: 120%;
+        border-right: none;
+       
+       
+    }
+    .second-header{
+        text-align: center;
+    }
+    table{
+        margin: 0 auto;
+    }
+    
+    .credentials{
+        justify-content: center;
+    }
+
+    .sub2 {
+        text-align: center;
+        }
+    
+    }
+
+
+    
+    
+    
+
+
